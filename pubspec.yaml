@@ -62,6 +62,11 @@ flutter:
   assets:
   - assets/1.jpg
   - assets/kos1.jpg
+  - assets/kos2.jpg
+  - assets/kos3.jpg
+  - assets/kos4.jpg
+  - assets/kos5.jpg
+  - assets/kos6.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
