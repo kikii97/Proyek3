@@ -12,7 +12,7 @@ class Dashboard extends StatelessWidget {
     return MaterialApp(
       routes: {
         "/single": (context) => Single(),
-        "/pilihanKmar": (context) => PilihanKamar(), // Add this route for detail page
+        "/pilihanKamar": (context) => PilihanKamar(), // Add this route for detail page
       },
       title: 'Dashboard',
       theme: ThemeData(

@@ -9,7 +9,7 @@ class AppKu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Profile(),
+      home: Profil(),
       routes: {
         '/editProfile': (context) => editProfile(),
       },
@@ -17,7 +17,7 @@ class AppKu extends StatelessWidget {
   }
 }
 
-class Profile extends StatelessWidget {
+class Profil extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -75,7 +75,7 @@ class Profile extends StatelessWidget {
               onPressed: () {
                 Navigator.pushNamed(context, '/editProfile');
               },
-              icon: Icon(Icons.edit),
+              icon: Icon(Icons.edit_note),
               label: Text('Edit'),
             ),
           ],
