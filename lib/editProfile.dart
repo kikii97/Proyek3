@@ -94,7 +94,7 @@ class _editProfileState extends State<editProfile> {
                   ScaffoldMessenger.of(context).showSnackBar(snackBar);
                   Navigator.pushAndRemoveUntil(
                     context,
-                    MaterialPageRoute(builder: (context) => Profile()),
+                    MaterialPageRoute(builder: (context) => Profil()),
                     (route) => false,
                   );
                 },
