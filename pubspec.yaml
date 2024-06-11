@@ -67,6 +67,9 @@ flutter:
   - assets/kos4.jpg
   - assets/kos5.jpg
   - assets/kos6.jpg
+  - assets/logo.png
+  - assets/google.png
+  - assets/facebook.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
